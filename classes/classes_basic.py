@@ -1,36 +1,36 @@
-# # Classes - chapter 9
-#
-# class Dog():
-#     """this  is the general class about dog"""
-#     breed = 'bulldog'
-#     name = 'brownie'
-#
-#     def __init__(self, name, age): # initializing class, constructor
-#         self.name = name
-#         self.age = age
-#
-#     # behaviour, method
-#     def bark(self):
-#         print("wouf wouf!!")
-#
-#
-# dog1 = Dog()
-# dog1.breed = "German shepard"
-# dog1.name = "rex"
-# dog1.bark()
-#
-# dog2 = Dog()
-# dog2.breed = "pudle"
-# dog2.name = "bobik"
-# dog2.bark()
-#
-# print('name of dog1', dog1.name)
-# print('breed of dog1', dog1.breed)
-# dog1.bark()
-#
-# print('name of dog1', dog2.name)
-# print('breed of dog1', dog2.breed)
-# dog2.bark()
+# Classes - chapter 9
+
+class Dog():
+    """this  is the general class about dog"""
+    breed = 'bulldog'
+    name = 'brownie'
+
+    def __init__(self, name, age): # initializing class, constructor
+        self.name = name
+        self.age = age
+
+    # behaviour, method
+    def bark(self):
+        print("wouf wouf!!")
+
+
+dog1 = Dog()
+dog1.breed = "German shepard"
+dog1.name = "rex"
+dog1.bark()
+
+dog2 = Dog()
+dog2.breed = "pudle"
+dog2.name = "bobik"
+dog2.bark()
+
+print('name of dog1', dog1.name)
+print('breed of dog1', dog1.breed)
+dog1.bark()
+
+print('name of dog1', dog2.name)
+print('breed of dog1', dog2.breed)
+dog2.bark()
 
 
 class NewDog():
